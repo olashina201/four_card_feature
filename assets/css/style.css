@@ -25,7 +25,7 @@
     padding: 20px;
     width: 250px;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 20px #ccc;
@@ -121,7 +121,7 @@ svg{
         width: 320px;
         height: 250px;
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         border-radius: 10px;
         background-color: #fff;
         box-shadow: 0 0 20px #ccc;
