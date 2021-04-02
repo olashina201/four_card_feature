@@ -25,10 +25,10 @@
     padding: 20px;
     width: 250px;
     height: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 20px #ccc;
 }
 
 .card-one{
@@ -121,15 +121,15 @@ svg{
         width: 320px;
         height: 250px;
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         border-radius: 10px;
         background-color: #fff;
-        box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 20px #ccc;
         
     }
 
     .mm{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-size: 11px;
         font-family: 'Poppins';
         font-weight: normal;
