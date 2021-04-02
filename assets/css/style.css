@@ -96,14 +96,14 @@ svg{
 
 @media only screen and (max-width: 1440px){
     .card-one{
-        float: right;
-        margin-top: 150px;
-        margin-right: 210px;
-    }
-    .card-two{
         float: left;
         margin-top: 150px;
         margin-left: 210px;
+    }
+    .card-four{
+        float: right;
+        margin-top: -420px;
+        margin-right: 210px;
     }
 }  
 
