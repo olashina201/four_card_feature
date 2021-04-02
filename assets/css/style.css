@@ -17,8 +17,6 @@
 .container{
     background-color: white;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card-one, .card-two, .card-three, .card-four{
@@ -122,6 +120,7 @@ svg{
         padding: 20px;
         width: 320px;
         height: 250px;
+        margin-right: 0;
         margin-bottom: 10px;
         border-radius: 10px;
         background-color: #fff;
