@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+.container{
+    background-color: white;
+}
+
+.card-one, .card-two, .card-three, .card-four{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.card-one{
+    border-top-width: 5px;
+    border-top-color: hsl(212, 86%, 64%);
+    border-top-style: inset;
+}
+.card-two{
+    border-top-width: 5px;
+    border-top-color: hsl(180, 62%, 55%);
+    border-top-style: inset;
+}
+
+.card-three{
+    border-top-width: 5px;
+    border-top-color: hsl(0, 78%, 62%);
+    border-top-style: inset;
+}
+.card-four{
+    border-top-width: 5px;
+    border-top-color: hsl(34, 97%, 64%);
+    border-top-style: inset;
+}
+.header{
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.power{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sm{
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.sm-1{
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+.mm{
+    margin-bottom: 50px;
+    font-size: 11px;
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+svg{
+    float: right;
+}
+
+
+@media only screen and (max-width: 1440px){
+    .card-one{
+        float: right;
+        margin-top: 150px;
+        margin-right: 210px;
+    }
+    .card-two{
+        float: left;
+        margin-top: 150px;
+        margin-left: 210px;
+    }
+}  
+
+@media only screen and (max-width: 992px){
+    .card-group{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-one, .card-two, .card-three, .card-four{
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 0 10px #ccc;
+        
+    }
+
+    .mm{
+        margin-bottom: 10px;
+        font-size: 11px;
+        font-family: 'Poppins';
+        font-weight: normal;
+    }
+}
