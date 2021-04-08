@@ -19,16 +19,21 @@
     box-sizing: border-box;
 }
 
+
 .card-one, .card-two, .card-three, .card-four{
-    display: block;
     margin: 0 auto;
-    padding: 20px;
-    width: 250px;
-    height: 200px;
+    max-width: 300px;
+    min-height: 250px;
+    padding: 30px;
+    box-sizing: border-box;
     margin-bottom: 40px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 20px #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .card-one{
@@ -94,50 +99,40 @@ svg{
 }
 
 
-@media only screen and (max-width: 1440px){
+@media only screen and (min-width: 992px){
+    .card-group{
+        margin: 0 auto;
+        display: grid;
+        width: 75%;
+        align-content: center;
+        grid-gap: 5px;
+    }
     .card-one{
-        float: left;
-        margin-top: 150px;
-        margin-left: 210px;
+        grid-row: 2;
+        grid-column: 1;
+        margin-top: -140px;
+    }
+    .card-two{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .card-three{
+        grid-column: 2;
+        grid-row: 3;
+        margin-top: -200px;
     }
     .card-four{
-        float: right;
-        margin-top: -420px;
-        margin-right: 210px;
+        grid-column: 3;
+        grid-row: 2;
+        margin-top: -140px;
     }
 }  
 
-@media only screen and (max-width: 992px){
+@media only screen and (min-width: 480px){
     .card-group{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 0 auto;
-    }
-
-    .card-one, .card-two, .card-three, .card-four{
-        display: block;
-        margin: 0 auto;
-        padding: 20px;
-        width: 320px;
-        height: 250px;
-        margin-right: 0;
-        margin-bottom: 40px;
-        border-radius: 10px;
-        background-color: #fff;
-        box-shadow: 0 0 20px #ccc;
-        
-    }
-
-    .mm{
-        margin-bottom: 40px;
-        font-size: 11px;
-        font-family: 'Poppins';
-        font-weight: normal;
-    }
-
-    .sm-1{
-        font-family: 'Poppins';
-        font-weight: normal;
-        font-size: 10px;
+        grid-template-columns: repeat(1);
+        align-content: center;
     }
 }
