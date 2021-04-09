@@ -16,10 +16,6 @@
 
 .container{
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     background-color: white;
     box-sizing: border-box;
 }
@@ -27,8 +23,8 @@
 
 .card-one, .card-two, .card-three, .card-four{
     margin: 0 auto;
-    width: 260px;
-    height: max-content;
+    width: 290px;
+    height: 230px;
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 60px;
@@ -94,8 +90,9 @@
     font-weight: normal;
 }
 
-svg{
+img{
     float: right;
+    width: 3rem;
 }
 
 .title{
@@ -136,7 +133,7 @@ svg{
 
 @media screen and (min-width: 200px){
     .card-group{
-        align-content: ;
+        align-content: center;
         margin: 0 auto;
         display: grid;
         justify-content: center;
