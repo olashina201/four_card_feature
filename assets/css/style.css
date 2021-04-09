@@ -15,6 +15,11 @@
 }
 
 .container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     background-color: white;
     box-sizing: border-box;
 }
@@ -22,11 +27,11 @@
 
 .card-one, .card-two, .card-three, .card-four{
     margin: 0 auto;
-    max-width: 300px;
-    min-height: 250px;
-    padding: 30px;
+    width: 260px;
+    height: max-content;
+    padding: 20px;
     box-sizing: border-box;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 20px #ccc;
@@ -66,10 +71,10 @@
 }
 
 .mm{
-    margin-bottom: 50px;
-    font-size: 11px;
+    margin-bottom: 30px;
+    font-size: 10px;
     font-family: 'Poppins';
-    font-weight: normal;
+    font-weight: 550;
 }
 
 .power{
@@ -99,13 +104,13 @@ svg{
 }
 
 
-@media only screen and (min-width: 992px){
+@media screen and (min-width: 700px){
     .card-group{
         margin: 0 auto;
         display: grid;
         width: 75%;
         align-content: center;
-        grid-gap: 5px;
+        grid-gap: 15px;
     }
     .card-one{
         grid-row: 2;
@@ -129,10 +134,14 @@ svg{
     }
 }  
 
-@media only screen and (min-width: 480px){
+@media screen and (min-width: 200px){
     .card-group{
+        align-content: ;
+        margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(1);
-        align-content: center;
+        justify-content: center;
+    }
+    .container{
+        margin: 0 auto;
     }
 }
